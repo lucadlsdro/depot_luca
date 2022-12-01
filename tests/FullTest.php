@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 
-final class FullTests extends TestCase
+final class FullTest extends TestCase
 {
     public function testHelloWorld(): void
     {
