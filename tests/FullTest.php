@@ -3,12 +3,18 @@ use PHPUnit\Framework\TestCase;
 
 final class FullTest extends TestCase
 {
-    public function testHelloWorld(): void
+
+	public function testExistsGitignore(): void
     {
-        $this->assertEquals(
-            'Hello World',
-            'Hello World'
+        $this->assertTrue(
+            file_exists('.gitignore')
         );
     }
-
+	
+	public function testExistsDotenv(): void
+    {
+        $this->assertTrue(
+            file_exists('.env')
+        );
+    }
 }
