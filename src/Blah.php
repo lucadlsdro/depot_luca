@@ -4,7 +4,7 @@ final class Blah
 {
     public function blih(): void
     {
-        //c'est lulu
+        //c'est lilian le boss
        echo "blop";
     }
 
